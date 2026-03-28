@@ -227,3 +227,82 @@ html {
 .navbar-toggler:focus {
   box-shadow: none;
 }
+
+body {
+  background-color: #1a002b;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+/* Section */
+.certifications {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.certifications h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: white;
+  margin-bottom: 40px;
+}
+
+/* Card */
+.cert-card {
+  max-width: 900px;
+  margin: auto;
+  background: transparent;
+  border: 2px #4787c0;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  gap: 20px;
+  text-align: left;
+  box-shadow: 0 0 20px rgba(161, 0, 255, 0.3);
+}
+
+/* Icon */
+.icon {
+  font-size: 40px;
+  color: #4787c0;
+}
+
+/* Content */
+.content h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.content h4 {
+  margin: 5px 0 15px;
+  color: white;
+}
+
+.content p {
+  line-height: 1.6;
+}
+
+.tags {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.date {
+  margin-top: 5px;
+  color: white;
+}
+
+.cert-card {
+  border: 2px solid #4787c0;
+  box-shadow: 0 0 15px rgba(71, 135, 192, 0.3);
+  transition: all 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 0 30px rgba(71, 135, 192, 0.7);
+  border-color: #4787c0;
+}
