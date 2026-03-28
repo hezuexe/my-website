@@ -1,0 +1,229 @@
+body {
+ background-color: #073760;
+ color: white;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: black;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+    
+.hero {
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background: radial-gradient(circle, rgba(0,255,170,0.1) 1px, transparent 1px);
+   background-size: 40px 40px;
+    }
+
+.hero h1 {
+      font-size: 80px;
+      font-weight: bold;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero h3 {
+      color: white;
+      letter-spacing: 5px;
+}
+
+.btn-custom {
+      background-color: #000000;
+      color: rgb(196, 196, 196);
+      border-radius: 50px;
+      padding: 10px 25px;
+}
+
+.btn-outline-custom {
+      background-color: #000000;
+      color: rgb(196, 196, 196);
+      border-radius: 50px;
+      padding: 10px 25px;
+}
+
+
+html {
+      scroll-behavior: smooth;
+}
+
+#profile {
+      scroll-margin-top: 100px;
+}
+
+.profile-img {
+       width: 300px;
+       height: 350px;
+       object-fit: cover;
+       border-radius: 15px;
+       border: 3px solid #4787c0;
+       box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+       transition: 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+.tech-card {
+  background-color: #1f1f3a;
+  border: 2px solid #4787c0;
+  border-radius: 15px;
+  transition: 0.3s ease;
+  height: 100%;
+}
+
+.tech-card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+  border-color: #4787c0;
+}
+
+.custom-card {
+  background-color: #1a0025;
+  border: 2px solid #4787c0;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(179, 0, 255, 0.3);
+  transition: 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px #4787c0(179, 0, 255, 0.6);
+}
+
+.pill {
+  border: 1px solid white;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-size: 14px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.pill:hover {
+  background-color: #4787c0 ;
+  color: white;
+  transform: scale(1.05);
+}
+
+#projects {
+  scroll-margin-top: 100px;
+}
+
+.project-card {
+  background-color: #1a0025;
+  border: 2px solid #4787c0;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.3s ease;
+  height: 100%;
+}
+
+.project-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 0 20px #4787c0;
+  border-color: #4787c0;
+}
+
+.project-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+#affiliations {
+  scroll-margin-top: 100px;
+  color: white;
+}
+
+.aff-card {
+  background-color: #1a0025;
+  border: 2px solid #4787c0;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(179, 0, 255, 0.3);
+  transition: 0.3s ease;
+}
+
+.aff-card:hover {
+  transform: translateY(-8px);
+  border-color: #4787c0;
+  box-shadow: 0 0 25px #4787c0;
+}
+
+.aff-icon {
+  font-size: 35px;
+  color: #4787c0;
+  background: rgba(71, 135, 192, 0.15);
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.tag {
+  border: 1px solid #4787c0;
+  padding: 6px 12px;
+  border-radius: 50px;
+  font-size: 13px;
+  transition: 0.3s ease;
+}
+
+.tag:hover {
+  background-color: #4787c0;
+  color: black;
+  transform: scale(1.05);
+}
+
+#contact {
+  scroll-margin-top: 100px;
+}
+
+.contact-box {
+  background: #1a0025;
+  border: 2px solid #4787c0;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 0 20px rgba(71, 135, 192, 0.3);
+}
+
+.contact-input {
+  background: #1f1f3a;
+  border: 2px solid #4787c0;
+  color: white;
+  border-radius: 15px;
+  padding: 12px;
+  transition: 0.3s;
+}
+
+.contact-input::placeholder {
+  color: #bcdcff;
+}
+
+.contact-input:focus {
+  border-color: #6fb3ff;
+  box-shadow: 0 0 10px #4787c0;
+  outline: none;
+}
+
+.contact-btn {
+  border-radius: 50px;
+  padding: 10px 30px;
+}
+
+.navbar-toggler {
+  border: 2px solid #4787c0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
